@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.intro-page {
+    height: 100vh;
+    background-image: url("portfolio-gif.gif");
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+.intro-button {
+    background-color: transparent;
+    font-size: medium;
+}
+.about-me {
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+    margin: 50px;
+}
+.avatar {
+    float: left;
+    margin-right: 25px;
+    padding: 100px;
+    height: 350px;
+    width: 350px;
+}
+.portfolio {
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+}
+.contact {
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+}
+@media screen and (max-width: 200px) {
+    .intro-page {
+        background-image: url("portfolio-gif.gif");
+    }
+}
+
