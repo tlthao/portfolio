@@ -1,6 +1,6 @@
 Professional Portfolio
 
-Objective:
+Objective:<br>
 Application must include a photo or avatar of the student<br>
 Clicking on a featured application opens deployed application<br> 
 The application must adapt to the viewport with a responsive layout by resizing the page on various screens and devices<br>
